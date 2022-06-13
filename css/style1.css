@@ -1,5 +1,13 @@
-.box{
+.contend{
     width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    max-width: 100%;
     height: 100vh;
     background-color: black;
     display: flex;
@@ -41,7 +49,6 @@ text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 30%;
 }
 .box-content2{
     color: white;
@@ -51,10 +58,9 @@ text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 30%;
 }
 .box-content{
     margin-top: 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
